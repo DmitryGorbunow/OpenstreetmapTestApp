@@ -7,20 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0563C592B21D3C500F8E0BE /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0563C572B21D3C500F8E0BE /* DataService.swift */; };
+		D0563C5D2B21D3E500F8E0BE /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = D0563C5C2B21D3E500F8E0BE /* Data.json */; };
+		D0563C642B21D4EB00F8E0BE /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0563C632B21D4EB00F8E0BE /* Point.swift */; };
+		D0563C682B21D54100F8E0BE /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0563C672B21D54100F8E0BE /* APIError.swift */; };
+		D0CBBC702B21F32100BF4EC4 /* PointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CBBC6F2B21F32100BF4EC4 /* PointAnnotation.swift */; };
+		D0CBBC742B22F1A700BF4EC4 /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CBBC732B22F1A700BF4EC4 /* BottomSheetView.swift */; };
+		D0CBBC782B2301F500BF4EC4 /* UIImage + Extension .swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CBBC772B2301F500BF4EC4 /* UIImage + Extension .swift */; };
+		D0CBBC802B2350BB00BF4EC4 /* CustomCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CBBC7F2B2350BB00BF4EC4 /* CustomCalloutView.swift */; };
+		D0CBBC832B242F1E00BF4EC4 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CBBC822B242F1E00BF4EC4 /* MapViewModel.swift */; };
+		D0CBBC862B2449DB00BF4EC4 /* СommonСonstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CBBC852B2449DB00BF4EC4 /* СommonСonstants.swift */; };
+		D0CBBC882B244EFF00BF4EC4 /* UIView + Extension .swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CBBC872B244EFF00BF4EC4 /* UIView + Extension .swift */; };
+		D0CBBC8C2B2465E000BF4EC4 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CBBC8B2B2465E000BF4EC4 /* Coordinator.swift */; };
+		D0CBBC8E2B24660200BF4EC4 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CBBC8D2B24660200BF4EC4 /* AppCoordinator.swift */; };
 		D0E7BB242B219D2F0075B753 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BB232B219D2F0075B753 /* AppDelegate.swift */; };
 		D0E7BB262B219D2F0075B753 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BB252B219D2F0075B753 /* SceneDelegate.swift */; };
-		D0E7BB282B219D2F0075B753 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BB272B219D2F0075B753 /* ViewController.swift */; };
-		D0E7BB2B2B219D2F0075B753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E7BB292B219D2F0075B753 /* Main.storyboard */; };
+		D0E7BB282B219D2F0075B753 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BB272B219D2F0075B753 /* MapViewController.swift */; };
 		D0E7BB2D2B219D310075B753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E7BB2C2B219D310075B753 /* Assets.xcassets */; };
 		D0E7BB302B219D310075B753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E7BB2E2B219D310075B753 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0563C572B21D3C500F8E0BE /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		D0563C5C2B21D3E500F8E0BE /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		D0563C632B21D4EB00F8E0BE /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		D0563C672B21D54100F8E0BE /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		D0CBBC6F2B21F32100BF4EC4 /* PointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointAnnotation.swift; sourceTree = "<group>"; };
+		D0CBBC732B22F1A700BF4EC4 /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
+		D0CBBC772B2301F500BF4EC4 /* UIImage + Extension .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage + Extension .swift"; sourceTree = "<group>"; };
+		D0CBBC7F2B2350BB00BF4EC4 /* CustomCalloutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalloutView.swift; sourceTree = "<group>"; };
+		D0CBBC822B242F1E00BF4EC4 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		D0CBBC852B2449DB00BF4EC4 /* СommonСonstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СommonСonstants.swift"; sourceTree = "<group>"; };
+		D0CBBC872B244EFF00BF4EC4 /* UIView + Extension .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension .swift"; sourceTree = "<group>"; };
+		D0CBBC8B2B2465E000BF4EC4 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		D0CBBC8D2B24660200BF4EC4 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		D0E7BB202B219D2F0075B753 /* OpenstreetmapTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenstreetmapTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E7BB232B219D2F0075B753 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0E7BB252B219D2F0075B753 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D0E7BB272B219D2F0075B753 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D0E7BB2A2B219D2F0075B753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0E7BB272B219D2F0075B753 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		D0E7BB2C2B219D310075B753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0E7BB2F2B219D310075B753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0E7BB312B219D310075B753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +61,109 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0563C5B2B21D3DD00F8E0BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BB2C2B219D310075B753 /* Assets.xcassets */,
+				D0563C5C2B21D3E500F8E0BE /* Data.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D0563C5E2B21D45B00F8E0BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D0563C632B21D4EB00F8E0BE /* Point.swift */,
+				D0CBBC6F2B21F32100BF4EC4 /* PointAnnotation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D0563C602B21D48C00F8E0BE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BB272B219D2F0075B753 /* MapViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D0563C612B21D49D00F8E0BE /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BB2E2B219D310075B753 /* LaunchScreen.storyboard */,
+				D0E7BB232B219D2F0075B753 /* AppDelegate.swift */,
+				D0E7BB252B219D2F0075B753 /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		D0563C622B21D4B800F8E0BE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D0563C572B21D3C500F8E0BE /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D0563C652B21D52A00F8E0BE /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				D0563C672B21D54100F8E0BE /* APIError.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		D0CBBC752B2301C900BF4EC4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0CBBC732B22F1A700BF4EC4 /* BottomSheetView.swift */,
+				D0CBBC7F2B2350BB00BF4EC4 /* CustomCalloutView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D0CBBC762B2301DF00BF4EC4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D0CBBC772B2301F500BF4EC4 /* UIImage + Extension .swift */,
+				D0CBBC872B244EFF00BF4EC4 /* UIView + Extension .swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D0CBBC812B242EF600BF4EC4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D0CBBC822B242F1E00BF4EC4 /* MapViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D0CBBC842B2449A500BF4EC4 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D0CBBC852B2449DB00BF4EC4 /* СommonСonstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		D0CBBC892B2465C300BF4EC4 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				D0CBBC8A2B2465D000BF4EC4 /* Protocols */,
+				D0CBBC8D2B24660200BF4EC4 /* AppCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		D0CBBC8A2B2465D000BF4EC4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D0CBBC8B2B2465E000BF4EC4 /* Coordinator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		D0E7BB172B219D2F0075B753 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +183,17 @@
 		D0E7BB222B219D2F0075B753 /* OpenstreetmapTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				D0E7BB232B219D2F0075B753 /* AppDelegate.swift */,
-				D0E7BB252B219D2F0075B753 /* SceneDelegate.swift */,
-				D0E7BB272B219D2F0075B753 /* ViewController.swift */,
-				D0E7BB292B219D2F0075B753 /* Main.storyboard */,
-				D0E7BB2C2B219D310075B753 /* Assets.xcassets */,
-				D0E7BB2E2B219D310075B753 /* LaunchScreen.storyboard */,
+				D0CBBC892B2465C300BF4EC4 /* Coordinators */,
+				D0CBBC842B2449A500BF4EC4 /* Constants */,
+				D0CBBC762B2301DF00BF4EC4 /* Extensions */,
+				D0CBBC752B2301C900BF4EC4 /* Views */,
+				D0563C5E2B21D45B00F8E0BE /* Models */,
+				D0563C602B21D48C00F8E0BE /* Controllers */,
+				D0CBBC812B242EF600BF4EC4 /* ViewModels */,
+				D0563C622B21D4B800F8E0BE /* Services */,
+				D0563C652B21D52A00F8E0BE /* Enums */,
+				D0563C612B21D49D00F8E0BE /* SupportingFiles */,
+				D0563C5B2B21D3DD00F8E0BE /* Resources */,
 				D0E7BB312B219D310075B753 /* Info.plist */,
 			);
 			path = OpenstreetmapTestApp;
@@ -127,7 +259,7 @@
 			files = (
 				D0E7BB302B219D310075B753 /* LaunchScreen.storyboard in Resources */,
 				D0E7BB2D2B219D310075B753 /* Assets.xcassets in Resources */,
-				D0E7BB2B2B219D2F0075B753 /* Main.storyboard in Resources */,
+				D0563C5D2B21D3E500F8E0BE /* Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +270,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0E7BB282B219D2F0075B753 /* ViewController.swift in Sources */,
+				D0E7BB282B219D2F0075B753 /* MapViewController.swift in Sources */,
+				D0CBBC702B21F32100BF4EC4 /* PointAnnotation.swift in Sources */,
+				D0CBBC862B2449DB00BF4EC4 /* СommonСonstants.swift in Sources */,
+				D0CBBC882B244EFF00BF4EC4 /* UIView + Extension .swift in Sources */,
+				D0CBBC782B2301F500BF4EC4 /* UIImage + Extension .swift in Sources */,
+				D0563C642B21D4EB00F8E0BE /* Point.swift in Sources */,
+				D0CBBC8C2B2465E000BF4EC4 /* Coordinator.swift in Sources */,
 				D0E7BB242B219D2F0075B753 /* AppDelegate.swift in Sources */,
 				D0E7BB262B219D2F0075B753 /* SceneDelegate.swift in Sources */,
+				D0CBBC832B242F1E00BF4EC4 /* MapViewModel.swift in Sources */,
+				D0563C592B21D3C500F8E0BE /* DataService.swift in Sources */,
+				D0563C682B21D54100F8E0BE /* APIError.swift in Sources */,
+				D0CBBC8E2B24660200BF4EC4 /* AppCoordinator.swift in Sources */,
+				D0CBBC802B2350BB00BF4EC4 /* CustomCalloutView.swift in Sources */,
+				D0CBBC742B22F1A700BF4EC4 /* BottomSheetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D0E7BB292B219D2F0075B753 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0E7BB2A2B219D2F0075B753 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D0E7BB2E2B219D310075B753 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,7 +354,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -297,9 +433,9 @@
 				INFOPLIST_FILE = OpenstreetmapTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +443,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = DmitryGorbunow.OpenstreetmapTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,9 +464,9 @@
 				INFOPLIST_FILE = OpenstreetmapTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +474,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = DmitryGorbunow.OpenstreetmapTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

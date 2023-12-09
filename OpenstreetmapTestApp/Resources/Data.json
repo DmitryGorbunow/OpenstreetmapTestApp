@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Илья",
+        "date": "03.05.17",
+        "time": "14:00",
+        "image": "boy1",
+        "locationType": "GPS",
+        "coordinate": {
+            "lat": 56.834543,
+            "long": 60.599727
+        }
+    },
+    {
+        "name": "Петр",
+        "date": "04.09.17",
+        "time": "18:00",
+        "image": "boy2",
+        "locationType": "GPS",
+        "coordinate": {
+            "lat": 56.838481,
+            "long": 60.601858
+        }
+    },
+    {
+        "name": "Иван",
+        "date": "01.08.17",
+        "time": "16:00",
+        "image": "boy3",
+        "locationType": "GPS",
+        "coordinate": {
+            "lat": 56.839946,
+            "long": 60.595543
+        }
+    },
+    {
+        "name": "Дима",
+        "date": "13.07.17",
+        "time": "17:00",
+        "image": "boy4",
+        "locationType": "GPS",
+        "coordinate": {
+            "lat": 56.836657,
+            "long": 60.597889
+        }
+    }
+]
